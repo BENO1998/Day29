@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { Button } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 import DeleteIcon from "@mui/icons-material/Delete";
 import CreateIcon from "@mui/icons-material/Create";
 import { Link, useNavigate } from "react-router-dom";
@@ -50,6 +50,17 @@ export default function StudentData() {
                 </div>
               </nav>
               {/* <!-- End of Topbar -->*/}
+              <Typography
+                variant="h6"
+                style={{
+                  color: "black",
+                  fontWeight: "bolder",
+                  textAlign: "center",
+                  padding: "20px",
+                }}
+              >
+                STUDENT DETAILS
+              </Typography>
               <TableContainer component={Paper}>
                 <Table sx={{ minWidth: 650 }} aria-label="simple table">
                   <TableHead>
