@@ -28,14 +28,14 @@ export default function Dashboard() {
                 <div className="container p-5 ">
                   <div className="row">
                     <div className="offset-md-3 col-md-6  p-5">
-                      <div className="card text-black text-center bg-info">
+                      <div className="card text-black text-center bg-warning">
                         <div className="card-body">
                           <h5 className="card-title fw-bold">STUDENT</h5>
                           <h6 className="card-subtitle mb-2">
                             Student Details
                           </h6>
                           <p className="card-text">
-                            CRUD Application to create, read , update and delete
+                            CRUD Application to Create, Read , Update and Delete
                             data of the student
                           </p>
                           <Button>
@@ -50,14 +50,14 @@ export default function Dashboard() {
                       </div>
                     </div>
                     <div className=" offset-md-3 col-md-6 p-5">
-                      <div className="card text-black text-center bg-info">
+                      <div className="card text-black text-center bg-warning">
                         <div className="card-body">
                           <h5 className="card-title fw-bold">TEACHER</h5>
                           <h6 className="card-subtitle mb-2">
                             Teacher Details
                           </h6>
                           <p className="card-text">
-                            CRUD Application to create, read , update and delete
+                          CRUD Application to Create, Read , Update and Delete
                             data of the Teacher
                           </p>
                           <Button>
